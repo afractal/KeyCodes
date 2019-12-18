@@ -4,16 +4,40 @@ Javascript DOM event key codes map.
 
 ## Install
 
-```sh
-npm install @afractal/keycodes
-yarn add @afractal/keycodes
+Setup the **.yarnrc** file:
+
+```bash
+"@afractal:registry" "https://npm.pkg.github.com"
+```
+
+Setup the **.npmrc** file:
+
+```bash
+@afractal:registry=https://npm.pkg.github.com
+```
+
+Add the definition inside **package.json**:
+
+```json
+"dependencies": {
+    "@afractal/keycodes": "<version>"
+}
+```
+
+Install the package with **yarn**:
+
+```bash
+yarn install
 ```
 
 ## Usage
 
 ```typescript
-import keycodes from "keycodes";
-const enterCode = keycodes["enter"]; // returns 13
+import keycodes from "@afractal/keycodes";
+
+const enterCode = keycodes["enter"];
+const enterCode = keycodes.enter;
+// both return 13
 ```
 
 ## License

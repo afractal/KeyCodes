@@ -1,5 +1,5 @@
 
-export const KeyCodes = {
+export default {
   'that key has no keycode': 0,
   'break': 3,
   'backspace/delete': 8,

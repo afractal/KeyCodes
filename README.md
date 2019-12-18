@@ -1,20 +1,19 @@
 # KeyCodes
 
-Javascript dom event key codes maps.
+Javascript DOM event key codes map.
 
 ## Install
 
 ```sh
-npm install @afracta/keycodes --save
-yarn add @afracta/keycodes
+npm install @afractal/keycodes
+yarn add @afractal/keycodes
 ```
 
 ## Usage
 
 ```typescript
-import { keycodes1, keycodes2 } from "keycodes";
-const enterCode1 = keycodes1["enter"]; // returns 13
-const enterCode2 = keycodes1.enter; // returns 13
+import keycodes from "keycodes";
+const enterCode = keycodes["enter"]; // returns 13
 ```
 
 ## License

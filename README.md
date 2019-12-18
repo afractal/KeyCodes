@@ -1,4 +1,4 @@
-# KeyCodes
+# keycodes
 
 Javascript DOM event key codes map.
 

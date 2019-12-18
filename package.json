@@ -3,12 +3,30 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/afractal/KeyCodes.git",
   "author": "afractal <fractal@users.noreply.github.com>",
+  "description": "DOM event key codes msp",
   "license": "MIT",
   "private": false,
+  "homepage": "https://github.com/afractal/KeyCodes#README",
+  "keywords": [
+    "key",
+    "codes",
+    "keycodes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afractal/KeyCodes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/afractal/KeyCodes/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@afractal"
+  },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "tsc",
+    "deploy": "npm publish"
   },
   "devDependencies": {
     "typescript": "^3.7.3"

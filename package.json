@@ -1,0 +1,16 @@
+{
+  "name": "keycodes",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/afractal/KeyCodes.git",
+  "author": "afractal <fractal@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  }
+}

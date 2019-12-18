@@ -20,9 +20,6 @@
   "bugs": {
     "url": "https://github.com/afractal/KeyCodes/issues"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@afractal"
-  },
   "scripts": {
     "build": "tsc",
     "prepublish": "tsc",

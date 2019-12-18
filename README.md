@@ -1,6 +1,9 @@
 # keycodes
 
+[![GPR](https://img.shields.io/github/release/afractal/keycodes.svg?label=GPR&logo=github)](https://github.com/afractal/keycodes/packages/28631)
+
 Javascript DOM event key codes map.
+
 
 ## Install
 
